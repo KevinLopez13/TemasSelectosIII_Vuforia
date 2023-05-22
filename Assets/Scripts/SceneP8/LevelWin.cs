@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class LevelWin : MonoBehaviour
 {
+    public GameControl gameControl;
     public void OnTriggerEnter(Collider collider){
-        collider.gameObject.GetComponent<Renderer>().material.color = Color.red;
+        if(collider.gameObject.name == "Pelota"){
+            Destroy(collider.gameObject);
+            gameControl.nextLevel();
+        }
     }
 }

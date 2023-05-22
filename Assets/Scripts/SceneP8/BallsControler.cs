@@ -7,8 +7,16 @@ public class BallsControler : MonoBehaviour
     public GameObject OriginPos;
     public GameObject BallPrefab;
 
+    public GameObject getBall(){
+        return GameObject.Find("Pelota");
+    }
+
+    public void RestartBall() {
+        Destroy(GameObject.Find("Pelota"));
+    }
+
     public void Update()
-    {   
+    {
         GameObject ball = GameObject.Find("Pelota");
         if (ball == null){
             GameObject new_ball = Instantiate(BallPrefab, OriginPos.transform);
