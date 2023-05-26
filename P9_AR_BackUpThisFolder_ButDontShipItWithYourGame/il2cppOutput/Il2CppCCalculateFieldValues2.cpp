@@ -6093,15 +6093,6 @@ struct GameOver_tC0D72A03377DA58EE60B10DE7838DBDC0A75798D  : public MonoBehaviou
 	GameControl_t949119569FC9ECF26C6D35BA6DA42D3C3254AB1F* ___gameControl_4;
 };
 
-// LevelControl
-struct LevelControl_t38B13E35260AB5BA4B3691E3BFA99E67C6B444D6  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// System.Int32 LevelControl::levelID
-	int32_t ___levelID_4;
-	// System.Int32 LevelControl::level_attempts
-	int32_t ___level_attempts_5;
-};
-
 // LevelWin
 struct LevelWin_t35FFF843379C5066DDAA4A07545B87F2D72FEA6D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -7944,10 +7935,6 @@ struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_StaticFields
 
 // GameOver
 
-// LevelControl
-
-// LevelControl
-
 // LevelWin
 
 // LevelWin
@@ -9189,45 +9176,42 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6606[1] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6607[6] = 
 {
 	static_cast<int32_t>(offsetof(RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA, ___m_Centroid_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA, ___m_Point_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA, ___m_Normal_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA, ___m_Distance_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA, ___m_Fraction_4)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA, ___m_Collider_5)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6614[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6618[2] = 
 {
 	static_cast<int32_t>(offsetof(CubeColor_tB06B392E0F08F4F5A1CE59B8A3DAF620496D0030, ___colors_4)),static_cast<int32_t>(offsetof(CubeColor_tB06B392E0F08F4F5A1CE59B8A3DAF620496D0030, ___idColor_5)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6615[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6619[2] = 
 {
 	static_cast<int32_t>(offsetof(CubeRotation_t682F1D6B91181F6A0CBEF3008D880AA3CBC33B32, ___speed_4)),static_cast<int32_t>(offsetof(CubeRotation_t682F1D6B91181F6A0CBEF3008D880AA3CBC33B32, ___isRotating_5)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6616[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6620[2] = 
 {
 	static_cast<int32_t>(offsetof(BallsControler_tB2D5CF70044294C56DCFFDF497D1CA2A83FAA1F1, ___OriginPos_4)),static_cast<int32_t>(offsetof(BallsControler_tB2D5CF70044294C56DCFFDF497D1CA2A83FAA1F1, ___BallPrefab_5)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6617[1] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6621[1] = 
 {
 	static_cast<int32_t>(offsetof(GameOver_tC0D72A03377DA58EE60B10DE7838DBDC0A75798D, ___gameControl_4)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6618[1] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6622[1] = 
 {
 	static_cast<int32_t>(offsetof(LevelWin_t35FFF843379C5066DDAA4A07545B87F2D72FEA6D, ___gameControl_4)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6619[1] = 
-{
-	static_cast<int32_t>(offsetof(target_tDB819A8D2F90B30F4EA4033AC906AF8B85687C17, ___ball_14)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6620[8] = 
-{
-	static_cast<int32_t>(offsetof(GameControl_t949119569FC9ECF26C6D35BA6DA42D3C3254AB1F, ___score_attemps_4)),static_cast<int32_t>(offsetof(GameControl_t949119569FC9ECF26C6D35BA6DA42D3C3254AB1F, ___score_timer_5)),static_cast<int32_t>(offsetof(GameControl_t949119569FC9ECF26C6D35BA6DA42D3C3254AB1F, ___ballsControler_6)),static_cast<int32_t>(offsetof(GameControl_t949119569FC9ECF26C6D35BA6DA42D3C3254AB1F, ___score_7)),static_cast<int32_t>(offsetof(GameControl_t949119569FC9ECF26C6D35BA6DA42D3C3254AB1F, ___endGameMenu_8)),static_cast<int32_t>(offsetof(GameControl_t949119569FC9ECF26C6D35BA6DA42D3C3254AB1F, ___levels_9)),static_cast<int32_t>(offsetof(GameControl_t949119569FC9ECF26C6D35BA6DA42D3C3254AB1F, ___indexlevel_10)),static_cast<int32_t>(offsetof(GameControl_t949119569FC9ECF26C6D35BA6DA42D3C3254AB1F, ___play_11)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6621[2] = 
-{
-	static_cast<int32_t>(offsetof(LevelControl_t38B13E35260AB5BA4B3691E3BFA99E67C6B444D6, ___levelID_4)),static_cast<int32_t>(offsetof(LevelControl_t38B13E35260AB5BA4B3691E3BFA99E67C6B444D6, ___level_attempts_5)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6622[3] = 
-{
-	static_cast<int32_t>(offsetof(Score_t190877D354724EB1BD99FA27F906E19CB8F0C88A, ___s_attemps_4)),static_cast<int32_t>(offsetof(Score_t190877D354724EB1BD99FA27F906E19CB8F0C88A, ___s_time_5)),static_cast<int32_t>(offsetof(Score_t190877D354724EB1BD99FA27F906E19CB8F0C88A, ___title_6)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6623[1] = 
 {
+	static_cast<int32_t>(offsetof(target_tDB819A8D2F90B30F4EA4033AC906AF8B85687C17, ___ball_14)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6624[8] = 
+{
+	static_cast<int32_t>(offsetof(GameControl_t949119569FC9ECF26C6D35BA6DA42D3C3254AB1F, ___score_attemps_4)),static_cast<int32_t>(offsetof(GameControl_t949119569FC9ECF26C6D35BA6DA42D3C3254AB1F, ___score_timer_5)),static_cast<int32_t>(offsetof(GameControl_t949119569FC9ECF26C6D35BA6DA42D3C3254AB1F, ___ballsControler_6)),static_cast<int32_t>(offsetof(GameControl_t949119569FC9ECF26C6D35BA6DA42D3C3254AB1F, ___score_7)),static_cast<int32_t>(offsetof(GameControl_t949119569FC9ECF26C6D35BA6DA42D3C3254AB1F, ___endGameMenu_8)),static_cast<int32_t>(offsetof(GameControl_t949119569FC9ECF26C6D35BA6DA42D3C3254AB1F, ___levels_9)),static_cast<int32_t>(offsetof(GameControl_t949119569FC9ECF26C6D35BA6DA42D3C3254AB1F, ___indexlevel_10)),static_cast<int32_t>(offsetof(GameControl_t949119569FC9ECF26C6D35BA6DA42D3C3254AB1F, ___play_11)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6625[3] = 
+{
+	static_cast<int32_t>(offsetof(Score_t190877D354724EB1BD99FA27F906E19CB8F0C88A, ___s_attemps_4)),static_cast<int32_t>(offsetof(Score_t190877D354724EB1BD99FA27F906E19CB8F0C88A, ___s_time_5)),static_cast<int32_t>(offsetof(Score_t190877D354724EB1BD99FA27F906E19CB8F0C88A, ___title_6)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6626[1] = 
+{
 	0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6629[1] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6628[1] = 
 {
 	static_cast<int32_t>(offsetof(DataContractAttribute_tD065D7D14CC8AA548815166AB8B8210D1B3C699F, ___isReference_0)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6630[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6629[4] = 
 {
 	static_cast<int32_t>(offsetof(DataMemberAttribute_t8AE446BE9032B9BC8E7B2EDC785F5C6FA0E5BB73, ___name_0)),static_cast<int32_t>(offsetof(DataMemberAttribute_t8AE446BE9032B9BC8E7B2EDC785F5C6FA0E5BB73, ___order_1)),static_cast<int32_t>(offsetof(DataMemberAttribute_t8AE446BE9032B9BC8E7B2EDC785F5C6FA0E5BB73, ___isRequired_2)),static_cast<int32_t>(offsetof(DataMemberAttribute_t8AE446BE9032B9BC8E7B2EDC785F5C6FA0E5BB73, ___emitDefaultValue_3)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6631[1] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6630[1] = 
 {
 	static_cast<int32_t>(offsetof(EnumMemberAttribute_t65B5E85E642C96791DD6AE5EAD0276350954126F, ___value_0)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6636[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6635[4] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};

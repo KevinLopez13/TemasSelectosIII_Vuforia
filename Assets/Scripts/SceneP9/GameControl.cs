@@ -61,10 +61,11 @@ public class GameControl : MonoBehaviour
 
         endGameMenu.SetActive(true);
         score.setAttemps(score_attemps.ToString());
-        if (score_timer < 60)
-            score.setTime( score_timer.ToString("0.00"), "s" );
-        else
-            score.setTime( (score_timer/60.0f).ToString("0.00"), "min" );
+        
+        int minutes = (int)(score_timer / 60f);
+        int seconds = (int)(score_timer - minutes * 60f);
+        int cents = (int)((score_timer - (int)score_timer) * 100f);
+        score.setTime( string.Format("{0}:{1}:{2}", minutes, seconds, cents) );
     }
 
     void GameWin(){
@@ -95,7 +96,7 @@ public class GameControl : MonoBehaviour
         if(play == true){
             score_timer += Time.deltaTime;
             Debug.LogWarning(score_timer);
-            if(score_timer > 60){ // 300 : 5 minutes
+            if(score_timer > 300){ // 300 : 5 minutes
                 GameOver();
             }
             

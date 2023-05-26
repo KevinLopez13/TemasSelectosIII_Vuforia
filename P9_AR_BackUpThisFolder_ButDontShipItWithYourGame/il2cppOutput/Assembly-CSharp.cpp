@@ -104,8 +104,6 @@ struct GameOver_tC0D72A03377DA58EE60B10DE7838DBDC0A75798D;
 struct ITextPreprocessor_tDBB49C8B68D7B80E8D233B9D9666C43981EFAAB9;
 // UnityEngine.UI.LayoutElement
 struct LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A;
-// LevelControl
-struct LevelControl_t38B13E35260AB5BA4B3691E3BFA99E67C6B444D6;
 // LevelWin
 struct LevelWin_t35FFF843379C5066DDAA4A07545B87F2D72FEA6D;
 // UnityEngine.Material
@@ -172,20 +170,18 @@ struct PoseSmoother_t0FFFF1978A09252AD89E6E444613B95F9E1D59E8;
 struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
 
 IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* List_1_t242CDEAEC9C92000DA96982CDB9D592DDE2AADAF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral17490F55601C1F90A7803263837FE3F21E759D69;
 IL2CPP_EXTERN_C String_t* _stringLiteral19E30120BF148B4BD74A0C6CE7F85A461E68A628;
-IL2CPP_EXTERN_C String_t* _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745;
-IL2CPP_EXTERN_C String_t* _stringLiteral32D308F08E201660A1A1B244F9AF831CDBFC2635;
 IL2CPP_EXTERN_C String_t* _stringLiteral36C91A90FFE291AD37540CF869FCDC3317330094;
 IL2CPP_EXTERN_C String_t* _stringLiteral78151052237EF7BD3087947BB867E5B9DDCB02A7;
-IL2CPP_EXTERN_C String_t* _stringLiteral86B02B47B04CB284EE80BAD91A6C009CF408644D;
 IL2CPP_EXTERN_C String_t* _stringLiteralBBD8D8FEB29638C89A7F9CCB630983A10FD73C42;
 IL2CPP_EXTERN_C String_t* _stringLiteralD4E6DDA1E1373406AD52FD57CDA382328F5CD373;
-IL2CPP_EXTERN_C String_t* _stringLiteralDAF2BD03270A51BF9C135F3694DCAD2D3E66F465;
 IL2CPP_EXTERN_C String_t* _stringLiteralEFD0550F11A9791E70B2BE54F7B3868B5D357091;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_mC91ACC92AD57CA6CA00991DAF1DB3830BCE07AF8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m2D7F86C77ECF9B82AAC077B511F1004280571B90_RuntimeMethod_var;
@@ -1252,15 +1248,6 @@ struct GameOver_tC0D72A03377DA58EE60B10DE7838DBDC0A75798D  : public MonoBehaviou
 	GameControl_t949119569FC9ECF26C6D35BA6DA42D3C3254AB1F* ___gameControl_4;
 };
 
-// LevelControl
-struct LevelControl_t38B13E35260AB5BA4B3691E3BFA99E67C6B444D6  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// System.Int32 LevelControl::levelID
-	int32_t ___levelID_4;
-	// System.Int32 LevelControl::level_attempts
-	int32_t ___level_attempts_5;
-};
-
 // LevelWin
 struct LevelWin_t35FFF843379C5066DDAA4A07545B87F2D72FEA6D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -1930,10 +1917,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 
 // GameOver
 
-// LevelControl
-
-// LevelControl
-
 // LevelWin
 
 // LevelWin
@@ -2199,10 +2182,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5 (int32_t* __this, const RuntimeMethod* method) ;
 // System.Void Score::setAttemps(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Score_setAttemps_m80E88E7518DEFE5901D6A6D34A04E5EB3A4653EF (Score_t190877D354724EB1BD99FA27F906E19CB8F0C88A* __this, String_t* ___0_attemps, const RuntimeMethod* method) ;
-// System.String System.Single::ToString(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D (float* __this, String_t* ___0_format, const RuntimeMethod* method) ;
-// System.Void Score::setTime(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Score_setTime_mCF8341C7403071A1CF5EDB4FF4A8C89E3604D63E (Score_t190877D354724EB1BD99FA27F906E19CB8F0C88A* __this, String_t* ___0_time, String_t* ___1_units, const RuntimeMethod* method) ;
+// System.String System.String::Format(System.String,System.Object,System.Object,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C (String_t* ___0_format, RuntimeObject* ___1_arg0, RuntimeObject* ___2_arg1, RuntimeObject* ___3_arg2, const RuntimeMethod* method) ;
+// System.Void Score::setTime(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Score_setTime_mCA1B699F6A3DE188F2C2C9022CB3B8AE215F6E03 (Score_t190877D354724EB1BD99FA27F906E19CB8F0C88A* __this, String_t* ___0_time, const RuntimeMethod* method) ;
 // System.Void GameControl::EndGame()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameControl_EndGame_m299C45F153CC64E6D64FD947B2C1C642D5ADA63C (GameControl_t949119569FC9ECF26C6D35BA6DA42D3C3254AB1F* __this, const RuntimeMethod* method) ;
 // System.Void Score::setTitle(System.String)
@@ -2213,8 +2196,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m33EF1B897E0C7C6FF53898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameControl_GameOver_m48D41748A1D317D1BA8FE612E6A8C170F08576AC (GameControl_t949119569FC9ECF26C6D35BA6DA42D3C3254AB1F* __this, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
-// System.String System.String::Concat(System.String,System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m093934F71A9B351911EE46311674ED463B180006 (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, String_t* ___3_str3, const RuntimeMethod* method) ;
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Color::.ctor(System.Single,System.Single,System.Single,System.Single)
@@ -2934,14 +2915,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameControl_EndGame_m299C45F153CC64E6D64
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral32D308F08E201660A1A1B244F9AF831CDBFC2635);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral86B02B47B04CB284EE80BAD91A6C009CF408644D);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDAF2BD03270A51BF9C135F3694DCAD2D3E66F465);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral17490F55601C1F90A7803263837FE3F21E759D69);
 		s_Il2CppMethodInitialized = true;
 	}
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
-	float V_1 = 0.0f;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
 	{
 		// play = false;
 		__this->___play_11 = (bool)0;
@@ -2983,34 +2965,32 @@ IL_0028:
 		L_8 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_7, NULL);
 		NullCheck(L_6);
 		Score_setAttemps_m80E88E7518DEFE5901D6A6D34A04E5EB3A4653EF(L_6, L_8, NULL);
-		// if (score_timer < 60)
+		// int minutes = (int)(score_timer / 60f);
 		float L_9 = __this->___score_timer_5;
-		if ((!(((float)L_9) < ((float)(60.0f)))))
-		{
-			goto IL_0078;
-		}
-	}
-	{
-		// score.setTime( score_timer.ToString("0.00"), "s" );
-		Score_t190877D354724EB1BD99FA27F906E19CB8F0C88A* L_10 = __this->___score_7;
-		float* L_11 = (&__this->___score_timer_5);
-		String_t* L_12;
-		L_12 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D(L_11, _stringLiteral86B02B47B04CB284EE80BAD91A6C009CF408644D, NULL);
-		NullCheck(L_10);
-		Score_setTime_mCF8341C7403071A1CF5EDB4FF4A8C89E3604D63E(L_10, L_12, _stringLiteralDAF2BD03270A51BF9C135F3694DCAD2D3E66F465, NULL);
-		return;
-	}
-
-IL_0078:
-	{
-		// score.setTime( (score_timer/60.0f).ToString("0.00"), "min" );
-		Score_t190877D354724EB1BD99FA27F906E19CB8F0C88A* L_13 = __this->___score_7;
-		float L_14 = __this->___score_timer_5;
-		V_1 = ((float)(L_14/(60.0f)));
-		String_t* L_15;
-		L_15 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D((&V_1), _stringLiteral86B02B47B04CB284EE80BAD91A6C009CF408644D, NULL);
-		NullCheck(L_13);
-		Score_setTime_mCF8341C7403071A1CF5EDB4FF4A8C89E3604D63E(L_13, L_15, _stringLiteral32D308F08E201660A1A1B244F9AF831CDBFC2635, NULL);
+		V_1 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)(L_9/(60.0f))));
+		// int seconds = (int)(score_timer - minutes * 60f);
+		float L_10 = __this->___score_timer_5;
+		int32_t L_11 = V_1;
+		V_2 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_subtract(L_10, ((float)il2cpp_codegen_multiply(((float)L_11), (60.0f))))));
+		// int cents = (int)((score_timer - (int)score_timer) * 100f);
+		float L_12 = __this->___score_timer_5;
+		float L_13 = __this->___score_timer_5;
+		V_3 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_12, ((float)il2cpp_codegen_cast_double_to_int<int32_t>(L_13)))), (100.0f))));
+		// score.setTime( string.Format("{0}:{1}:{2}", minutes, seconds, cents) );
+		Score_t190877D354724EB1BD99FA27F906E19CB8F0C88A* L_14 = __this->___score_7;
+		int32_t L_15 = V_1;
+		int32_t L_16 = L_15;
+		RuntimeObject* L_17 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_16);
+		int32_t L_18 = V_2;
+		int32_t L_19 = L_18;
+		RuntimeObject* L_20 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_19);
+		int32_t L_21 = V_3;
+		int32_t L_22 = L_21;
+		RuntimeObject* L_23 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_22);
+		String_t* L_24;
+		L_24 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral17490F55601C1F90A7803263837FE3F21E759D69, L_17, L_20, L_23, NULL);
+		NullCheck(L_14);
+		Score_setTime_mCA1B699F6A3DE188F2C2C9022CB3B8AE215F6E03(L_14, L_24, NULL);
 		// }
 		return;
 	}
@@ -3142,9 +3122,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameControl_Update_m5C6C1398A3CBEE8718E1
 		RuntimeObject* L_5 = Box(Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var, &L_4);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_5, NULL);
-		// if(score_timer > 60){ // 300 : 5 minutes
+		// if(score_timer > 300){ // 300 : 5 minutes
 		float L_6 = __this->___score_timer_5;
-		if ((!(((float)L_6) > ((float)(60.0f)))))
+		if ((!(((float)L_6) > ((float)(300.0f)))))
 		{
 			goto IL_003d;
 		}
@@ -3229,46 +3209,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameControl__ctor_m4650C9F61DFC74BEDDADA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void LevelControl::updateAttempts()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelControl_updateAttempts_m7331D4E5D273AE3449DEA502DA04D5DDD7508A95 (LevelControl_t38B13E35260AB5BA4B3691E3BFA99E67C6B444D6* __this, const RuntimeMethod* method) 
-{
-	{
-		// }
-		return;
-	}
-}
-// System.Void LevelControl::Start()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelControl_Start_m96BB91B7D3F123D7FCB18EDC3040D2741CF99589 (LevelControl_t38B13E35260AB5BA4B3691E3BFA99E67C6B444D6* __this, const RuntimeMethod* method) 
-{
-	{
-		// }
-		return;
-	}
-}
-// System.Void LevelControl::Update()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelControl_Update_m45F7E0C7F89CAA2111F040527CD351A37B431BAC (LevelControl_t38B13E35260AB5BA4B3691E3BFA99E67C6B444D6* __this, const RuntimeMethod* method) 
-{
-	{
-		// }
-		return;
-	}
-}
-// System.Void LevelControl::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelControl__ctor_mEA73C691B760A1AB899E23012FA07948A96878E2 (LevelControl_t38B13E35260AB5BA4B3691E3BFA99E67C6B444D6* __this, const RuntimeMethod* method) 
-{
-	{
-		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 // System.Void Score::setAttemps(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Score_setAttemps_m80E88E7518DEFE5901D6A6D34A04E5EB3A4653EF (Score_t190877D354724EB1BD99FA27F906E19CB8F0C88A* __this, String_t* ___0_attemps, const RuntimeMethod* method) 
 {
@@ -3290,25 +3230,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Score_setAttemps_m80E88E7518DEFE5901D6A6
 		return;
 	}
 }
-// System.Void Score::setTime(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Score_setTime_mCF8341C7403071A1CF5EDB4FF4A8C89E3604D63E (Score_t190877D354724EB1BD99FA27F906E19CB8F0C88A* __this, String_t* ___0_time, String_t* ___1_units, const RuntimeMethod* method) 
+// System.Void Score::setTime(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Score_setTime_mCA1B699F6A3DE188F2C2C9022CB3B8AE215F6E03 (Score_t190877D354724EB1BD99FA27F906E19CB8F0C88A* __this, String_t* ___0_time, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD4E6DDA1E1373406AD52FD57CDA382328F5CD373);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// s_time.text = "Tiempo: " + time + " " + units;
+		// s_time.text = "Tiempo: " + time;
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___s_time_5;
 		String_t* L_1 = ___0_time;
-		String_t* L_2 = ___1_units;
-		String_t* L_3;
-		L_3 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteralD4E6DDA1E1373406AD52FD57CDA382328F5CD373, L_1, _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745, L_2, NULL);
+		String_t* L_2;
+		L_2 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralD4E6DDA1E1373406AD52FD57CDA382328F5CD373, L_1, NULL);
 		NullCheck(L_0);
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_0, L_3);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_0, L_2);
 		// }
 		return;
 	}

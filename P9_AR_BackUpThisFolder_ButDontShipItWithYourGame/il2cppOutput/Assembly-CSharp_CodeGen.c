@@ -68,27 +68,19 @@ extern void GameControl_Start_m1B81A3A747085E94CC8962FD4FCF12995361FDDC (void);
 extern void GameControl_Update_m5C6C1398A3CBEE8718E10B4AD10E30C5162727D3 (void);
 // 0x0000001C System.Void GameControl::.ctor()
 extern void GameControl__ctor_m4650C9F61DFC74BEDDADA2654D755EEB825AD161 (void);
-// 0x0000001D System.Void LevelControl::updateAttempts()
-extern void LevelControl_updateAttempts_m7331D4E5D273AE3449DEA502DA04D5DDD7508A95 (void);
-// 0x0000001E System.Void LevelControl::Start()
-extern void LevelControl_Start_m96BB91B7D3F123D7FCB18EDC3040D2741CF99589 (void);
-// 0x0000001F System.Void LevelControl::Update()
-extern void LevelControl_Update_m45F7E0C7F89CAA2111F040527CD351A37B431BAC (void);
-// 0x00000020 System.Void LevelControl::.ctor()
-extern void LevelControl__ctor_mEA73C691B760A1AB899E23012FA07948A96878E2 (void);
-// 0x00000021 System.Void Score::setAttemps(System.String)
+// 0x0000001D System.Void Score::setAttemps(System.String)
 extern void Score_setAttemps_m80E88E7518DEFE5901D6A6D34A04E5EB3A4653EF (void);
-// 0x00000022 System.Void Score::setTime(System.String,System.String)
-extern void Score_setTime_mCF8341C7403071A1CF5EDB4FF4A8C89E3604D63E (void);
-// 0x00000023 System.Void Score::setTitle(System.String)
+// 0x0000001E System.Void Score::setTime(System.String)
+extern void Score_setTime_mCA1B699F6A3DE188F2C2C9022CB3B8AE215F6E03 (void);
+// 0x0000001F System.Void Score::setTitle(System.String)
 extern void Score_setTitle_mFD5FBFEFAC7D79EBCF957AF51B3F73FB0B7381C5 (void);
-// 0x00000024 System.Void Score::.ctor()
+// 0x00000020 System.Void Score::.ctor()
 extern void Score__ctor_mDEDBA72E1F38C2F7CFF4E6C6556103C5D62C1670 (void);
-// 0x00000025 System.String VuforiaLicense::GetLicenseKey()
+// 0x00000021 System.String VuforiaLicense::GetLicenseKey()
 extern void VuforiaLicense_GetLicenseKey_m796D51E5EF1C53F3D62BA4EA8806AC1FB1A5E3C4 (void);
-// 0x00000026 System.Void VuforiaLicense::.ctor()
+// 0x00000022 System.Void VuforiaLicense::.ctor()
 extern void VuforiaLicense__ctor_m094B92B3323DFFD79ADB696474D5D158C95E291B (void);
-static Il2CppMethodPointer s_methodPointers[38] = 
+static Il2CppMethodPointer s_methodPointers[34] = 
 {
 	CubeColor_Start_mE83F2E2B861D5ECE75FB18B465415AF1139D6248,
 	CubeColor_SetColor_mBB77D0F19B9AE739DF1BE8BF13C7AFC874C81D0C,
@@ -118,18 +110,14 @@ static Il2CppMethodPointer s_methodPointers[38] =
 	GameControl_Start_m1B81A3A747085E94CC8962FD4FCF12995361FDDC,
 	GameControl_Update_m5C6C1398A3CBEE8718E10B4AD10E30C5162727D3,
 	GameControl__ctor_m4650C9F61DFC74BEDDADA2654D755EEB825AD161,
-	LevelControl_updateAttempts_m7331D4E5D273AE3449DEA502DA04D5DDD7508A95,
-	LevelControl_Start_m96BB91B7D3F123D7FCB18EDC3040D2741CF99589,
-	LevelControl_Update_m45F7E0C7F89CAA2111F040527CD351A37B431BAC,
-	LevelControl__ctor_mEA73C691B760A1AB899E23012FA07948A96878E2,
 	Score_setAttemps_m80E88E7518DEFE5901D6A6D34A04E5EB3A4653EF,
-	Score_setTime_mCF8341C7403071A1CF5EDB4FF4A8C89E3604D63E,
+	Score_setTime_mCA1B699F6A3DE188F2C2C9022CB3B8AE215F6E03,
 	Score_setTitle_mFD5FBFEFAC7D79EBCF957AF51B3F73FB0B7381C5,
 	Score__ctor_mDEDBA72E1F38C2F7CFF4E6C6556103C5D62C1670,
 	VuforiaLicense_GetLicenseKey_m796D51E5EF1C53F3D62BA4EA8806AC1FB1A5E3C4,
 	VuforiaLicense__ctor_m094B92B3323DFFD79ADB696474D5D158C95E291B,
 };
-static const int32_t s_InvokerIndices[38] = 
+static const int32_t s_InvokerIndices[34] = 
 {
 	5162,
 	5162,
@@ -159,12 +147,8 @@ static const int32_t s_InvokerIndices[38] =
 	5162,
 	5162,
 	5162,
-	5162,
-	5162,
-	5162,
-	5162,
 	4090,
-	2287,
+	4090,
 	4090,
 	5162,
 	7649,
@@ -174,7 +158,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	38,
+	34,
 	s_methodPointers,
 	0,
 	NULL,

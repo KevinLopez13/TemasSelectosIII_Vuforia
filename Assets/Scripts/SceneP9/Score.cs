@@ -14,8 +14,8 @@ public class Score : MonoBehaviour
         s_attemps.text = "Intentos: " + attemps;
     }
 
-    public void setTime(string time, string units){
-        s_time.text = "Tiempo: " + time + " " + units;
+    public void setTime(string time){
+        s_time.text = "Tiempo: " + time;
     }
 
     public void setTitle(string ttl){
